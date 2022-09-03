@@ -29,4 +29,7 @@
 - 🎉软件更新报告：[戳我去看看](https://github.com/pandaoxi/very-control/blob/main/Very_Control/About/Update/README.md)🎉
 - 🎈开源地址：[戳我去看看](https://github.com/pandaoxi/very-control/tree/main/Very_Control)🎈
 
+- 开发者邮箱：`pandaoxi2022@qq.com` 或 `2060642520@qq.com`。
+- 微信：`pandaoxi2021`。
+
 # 🥰感谢大家对软件的支持！🥰
