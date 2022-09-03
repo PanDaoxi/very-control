@@ -25,7 +25,7 @@
 - 🧐更多功能，等待你去探索！
 
 <h1>软件信息</h1>
-- ✨开发者：[`PanDaoxi`](https://pandaoxi.github.io/)✨
+- ✨开发者：[PanDaoxi](https://pandaoxi.github.io/)✨
 - 🎉软件更新报告：[戳我去看看](https://github.com/pandaoxi/very-control/blob/main/Very_Control/About/Update/README.md)🎉
 - 🎈开源地址：[戳我去看看](https://github.com/pandaoxi/very-control/tree/main/Very_Control)🎈
 
