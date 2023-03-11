@@ -7,12 +7,12 @@ from requests import get
 
 version = "1.3.5.0"
 updateFiles = {
-    "./manage.py": "https://pandaoxi-project.github.io/very-control/Very_Control/manage.py",
-    __file__: "https://pandaoxi-project.github.io/very-control/Very_Control/main.py",
-    "./VeryControl/asgi.py": "https://pandaoxi-project.github.io/very-control/Very_Control/VeryControl/asgi.py",
-    "./VeryControl/settings.py": "https://pandaoxi-project.github.io/very-control/Very_Control/VeryControl/settings.py",
-    "./VeryControl/urls.py": "https://pandaoxi-project.github.io/very-control/Very_Control/VeryControl/urls.py",
-    "./VeryControl/wsgi.py": "https://pandaoxi-project.github.io/very-control/Very_Control/VeryControl/wsgi.py",
+    "./manage.py": "https://pandaoxi.github.io/very-control/Very_Control/manage.py",
+    __file__: "https://pandaoxi.github.io/very-control/Very_Control/main.py",
+    "./VeryControl/asgi.py": "https://pandaoxi.github.io/very-control/Very_Control/VeryControl/asgi.py",
+    "./VeryControl/settings.py": "https://pandaoxi.github.io/very-control/Very_Control/VeryControl/settings.py",
+    "./VeryControl/urls.py": "https://pandaoxi.github.io/very-control/Very_Control/VeryControl/urls.py",
+    "./VeryControl/wsgi.py": "https://pandaoxi.github.io/very-control/Very_Control/VeryControl/wsgi.py",
 }
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44",
@@ -34,13 +34,16 @@ def getIP():
     return ip
 
 if __name__ == "__main__" and name == "nt":
-    temp = get('https://pandaoxi-project.github.io/very-control/Very_Control/VeryControl/VERSION',headers=headers)
-    temp.encoding = 'utf-8'
-    latest = temp.text
-    if latest != version:
-        print('Please wait a moment, we are updating the software for you ...')
-        update()
-    system('cls')
+    try:
+        temp = get('https://pandaoxi.github.io/very-control/Very_Control/VeryControl/VERSION',headers=headers)
+        temp.encoding = 'utf-8'
+        latest = temp.text
+        if latest != version:
+            print('Please wait a moment, we are updating the software for you ...')
+            update()
+        system('cls')
+    except:
+        pass
     print(
         """                                                                         _..._       .-\'\'\'-.                                    .-\'\'\'-.          
                                                                       .-'_..._''.   '   _    \                                 '   _    \  .---. 
